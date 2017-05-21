@@ -1,0 +1,27 @@
+#header {
+  background-color: blue;
+  height: 200px;
+}
+#nav {
+  background-color: green;
+  height: 75px;
+}
+#content {
+  background-color: red;
+  height: 250px;
+}
+#aside {
+  background-color: aqua;
+  height:250px
+}
+.promo {
+  background-color: orange;
+  height: 200px;
+}
+#footer {
+  background-color: black;
+  height: 75px;
+}
+.container-fluid {
+  background-color: yellow;
+}
