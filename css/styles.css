@@ -1,0 +1,70 @@
+#header {
+  background-color: blue;
+  height: 200px;
+}
+#nav {
+  background-color: green;
+  height: 75px;
+}
+#content {
+  background-color: red;
+  height: 250px;
+}
+#aside {
+  background-color: aqua;
+  height:250px
+}
+.promo {
+  background-color: orange;
+  height: 200px;
+}
+#footer {
+  background-color: black;
+  height: 75px;
+}
+.container-fluid {
+  background-color: white;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 768px) {
+  #header {
+    background-color: Blue;
+  }
+  #nav {
+    background-color: Red;
+  }
+  #content {
+    background-color: Yellow;
+  }
+  #aside {
+    background-color: Green;
+  }
+  #promo {
+    background-color: Purple;
+  }
+  #footer {
+    background-color: Orange;
+  }
+}
+@media screen and (min-width: 375px) {
+  #header {
+    background-color: Yellow;
+  }
+  #nav {
+    background-color: Orange;
+  }
+  #content {
+    background-color: Blue;
+  }
+  #aside {
+    background-color: Purple;
+  }
+  #promo {
+    background-color: Red;
+  }
+  #footer {
+    background-color: Green;
+  }
+}
